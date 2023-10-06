@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_views">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_work_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/baseline_home_work_24"
+            android:title="@string/menu_data" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_home_work_24"
+            android:title="@string/menu_settings" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_home_work_24"
+                android:title="Compoartir" />
+
+            <item android:id="@+id/nav_send"
+                android:icon="@drawable/baseline_home_work_24"
+                android:title="Enviar" />
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_home_work_24"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>

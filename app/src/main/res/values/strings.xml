@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejemplo Menus</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_data">Datos</string>
+    <string name="menu_exit">Salir</string>
+    <string name="open_nav">Abrir barra de navegación</string>
+    <string name="close_nav">Cerrar barra de navegación</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string></resources>

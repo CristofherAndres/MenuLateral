@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MenuLateral" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/redPastel</item>
+        <item name="colorPrimaryVariant">@color/pinkPastel</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/grayPastel</item>
+        <item name="colorSecondaryVariant">@color/gray2Pastel</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.MenuLateral" parent="Base.Theme.MenuLateral" />
+
+    <style name="MaterialAlertDialog.Material3.Animation.base" parent="MaterialAlertDialog.Material3">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>
